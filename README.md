@@ -2,7 +2,7 @@
 
 <hr/>
 
-- webpage link : [https://github.com/onlyanand10/indrones](https://github.com/onlyanand10/indrones)
+- webpage link : [https://onlyanand10.github.io/indrones/](https://onlyanand10.github.io/indrones/)
 
   - username : username
   - password : indrones
