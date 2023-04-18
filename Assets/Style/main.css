@@ -347,7 +347,14 @@ nav button:hover {
   overflow-y: scroll;
 }
 .container .card:hover .productDetails .featuresList .list .col-1::-webkit-scrollbar {
-  display: none;
+  width: 7px;
+}
+.container .card:hover .productDetails .featuresList .list .col-1::-webkit-scrollbar-track {
+  background: rgba(187, 187, 187, 0.231372549);
+}
+.container .card:hover .productDetails .featuresList .list .col-1::-webkit-scrollbar-thumb {
+  background: rgba(187, 187, 187, 0.7450980392);
+  border-radius: 4px;
 }
 .container .card:hover .productDetails .featuresList .list .col-1 .colTitle {
   background: #434343 !important;
