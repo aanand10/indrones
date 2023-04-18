@@ -34,6 +34,9 @@ nav {
   top: 0;
   z-index: 10;
   margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.4941176471);
+  padding: 0 1rem;
+  border-radius: 1rem;
 }
 nav ul {
   display: flex;
@@ -48,6 +51,7 @@ nav ul li:hover {
 }
 nav button {
   padding: 0.5rem 1.2rem;
+  border: 1px solid #2c2c2c;
   border-radius: 1rem;
 }
 nav button:hover {
@@ -292,6 +296,7 @@ nav button:hover {
   align-items: center;
   flex-direction: column;
   transform: skew(-5deg);
+  padding-bottom: 1rem;
 }
 .container .card:hover .productDetails .productDetailsTitle {
   font-size: 1.6rem;
@@ -307,6 +312,9 @@ nav button:hover {
   display: block;
   width: 25rem;
   height: auto;
+}
+.container .card:hover .productDetails .product .sigma75Img {
+  width: 20rem;
 }
 .container .card:hover .productDetails .product .infoIcons {
   width: 20rem;

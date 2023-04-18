@@ -75,6 +75,9 @@ nav
     top: 0
     z-index: 10
     margin-top: 1rem
+    background: #ffffff7e
+    padding: 0 1rem
+    border-radius: 1rem
     
     // justify-content: 
 
@@ -92,7 +95,8 @@ nav
     
     button
         padding: 0.5rem 1.2rem
-        border-radius: 1rem
+        border: 1px solid $secondary-color
+        border-radius: 1rem 
 
         &:hover
             background: $high-color
@@ -300,6 +304,7 @@ nav
         display: block
         @include flexMe($jc: center , $fd:column )
         transform: skew(-5deg) 
+        padding-bottom: 1rem
 
         .productDetailsTitle
             font-size: $subHeading
@@ -313,6 +318,8 @@ nav
                 width: 25rem
                 height: auto
                 
+            .sigma75Img
+                width: 20rem
             
             .infoIcons
                 width: 20rem
